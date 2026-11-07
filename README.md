@@ -3,7 +3,7 @@
 Textos de lei usados pelo app **Grifo**, convertidos das páginas do [Planalto](https://www.planalto.gov.br)
 (legislação federal compilada) com os trechos revogados retirados.
 
-Este repositório é atualizado automaticamente toda semana por um workflow do projeto Grifo, que baixa as
+Este repositório é atualizado a partir do projeto Grifo (`npm run laws:publish`), que baixa as
 páginas, converte e só publica uma lei quando ela passa nas verificações (número de artigos, último artigo,
 artigos repetidos e comparação com a versão anterior). O app baixa daqui as leis que mudaram.
 
