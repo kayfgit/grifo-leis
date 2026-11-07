@@ -1,0 +1,10 @@
+{
+  "name": "grifo-leis-tools",
+  "private": true,
+  "type": "module",
+  "description": "Law parser synced from the Grifo app repo. Edit it there, then run npm run laws:sync.",
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "grifo": "file:../../.."
+  }
+}
